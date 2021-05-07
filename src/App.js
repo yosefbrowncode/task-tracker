@@ -5,24 +5,7 @@ import { useState } from 'react'
 function App() {
   const[showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([
-    {
-        id: 1,
-        text: 'Chavrusa Mesilas Yesharim',
-        day: ' Yom Rishon 2:15pm',
-        reminder: true,
-    },
-    {
-        id: 2,
-        text: 'Chavrusa Taanit',
-        day: ' Yom Sheini 2:15pm',
-        reminder: true,
-    },
-    {
-        id: 3,
-        text: 'Chavrusa Midrash Rabbah',
-        day: ' Yom Reveii 2:15pm',
-        reminder: true,
-    }
+ 
 
 ])
 
